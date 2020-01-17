@@ -12,5 +12,6 @@ Set up procedures
 - make sure the midi controler is selected in the midi module located in the central upper region of the patch
 - set DAC tabs to output to apropriate sound card outputs. Current configuration DAC 1&2 main audio. DAC 3&4 PWM for lighting
   DAC 5&6 recording feed out.
-
+  
+  dependencies: Audio files should be in main project folder
 
