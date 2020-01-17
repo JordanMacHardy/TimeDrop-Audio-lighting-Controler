@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 1372.0, 788.0 ],
+		"rect" : [ 34.0, 79.0, 1372.0, 788.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,12 +38,50 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-68",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 409.0, 784.0, 150.0, 20.0 ],
+					"style" : "",
+					"text" : "use to change tracks"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-49",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 30.833313, 270.0, 150.0, 33.0 ],
+					"style" : "",
+					"text" : "Scales the midi signal to the appropriate PWM fq"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-42",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 862.0, 162.0, 160.0, 47.0 ],
+					"style" : "",
+					"text" : "Sclaes midi signla so that the music will play between 1x forwad and 1x backward"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-84",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 105.166656, 572.5, 150.0, 33.0 ],
+					"patching_rect" : [ 100.0, 572.5, 150.0, 33.0 ],
 					"style" : "",
 					"text" : "To Altenate soundcard outs"
 				}
@@ -112,14 +150,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-56",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1169.666626, 493.500031, 95.0, 33.0 ],
-					"presentation_rect" : [ 1167.0, 495.5, 0.0, 0.0 ],
+					"patching_rect" : [ 1169.666626, 493.500031, 95.0, 47.0 ],
 					"style" : "",
-					"text" : "Time Streaches buffer 2"
+					"text" : "Time Streaches buffer 2 (used for recording"
 				}
 
 			}
